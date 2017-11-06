@@ -30,5 +30,5 @@ require('simple-git')()
 .init()
 .add('./*')
 .commit("first commit!")
-//.addRemote('origin', remote)
+.addRemote('origin', remote)
 .push('origin', 'master');
